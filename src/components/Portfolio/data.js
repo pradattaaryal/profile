@@ -18,28 +18,28 @@ const data=[
     {
         id: "3",
         src: xx,
-        title: "Webflow Development",
+        title: "Webflow  ",
         cat:"front"
 
     },
     {
         id: "4",
         src: xx,
-        title: "Webflow Development",
+        title: "Webflow  ",
         cat:"front"
 
     },
     {
         id: "5",
         src: xx,
-        title: "Webflow Development",
+        title: "Webflow  ",
         cat:"front"
 
     },
     {
         id: "6",
         src: xx,
-        title: "Webflow Development",
+        title: "Webflow  ",
         cat:"full"
 
     },
