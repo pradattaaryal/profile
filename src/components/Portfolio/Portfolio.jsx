@@ -26,7 +26,7 @@ const Portfolio = () => {
                 <div className='flex text-center gap-2'>
                   <p>Demo</p>
                   <span className='pt-1'><FaArrowUpRightFromSquare /></span>
-                </div><a>
+                </div></a>
               </div>
             ))}
           </div>
