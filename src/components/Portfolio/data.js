@@ -46,7 +46,7 @@ const data=[
         src: xx,
         title: "Webflow  ",
         cat:"full",
-         link:""
+         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
     },
     
