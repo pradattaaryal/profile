@@ -18,7 +18,7 @@ const Portfolio = () => {
           </div>
           <div className='w-full h-full  gap-2  grid md:grid-cols-3  grid-cols-2  p-4'>
             {data.map((item, index) => (
-              <a herf={item.link}></><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
+              <a href={item.link}><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
                 <div className='h-[120px] w-full'>
                   <img className='rounded-xl object-cover border-2 border-black' src={item.src} alt='' style={{ height: '100%', width: '100%' }} />
                 </div>
@@ -26,8 +26,8 @@ const Portfolio = () => {
                 <div className='flex text-center gap-2'>
                   <p>Demo</p>
                   <span className='pt-1'><FaArrowUpRightFromSquare /></span>
-                </div></a>
-              </div>
+                </div>
+              </div></a>
             ))}
           </div>
         </div>
