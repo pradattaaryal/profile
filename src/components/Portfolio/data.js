@@ -7,40 +7,46 @@ const data=[
     id: "1",
     src: ecommerce,
     title: "ecommerce",
-    cat:"full"
+    cat:"full",
+    link:""
     },
     {
         id: "2",
         src: Portfolio,
         title: "Portfolio",
-        cat:"front"
+        cat:"front",
+         link:"https://profile-rust-kappa.vercel.app/"
     },
     {
         id: "3",
         src: xx,
         title: "Webflow  ",
-        cat:"front"
+        cat:"front",
+         link:""
 
     },
     {
         id: "4",
         src: xx,
         title: "Webflow  ",
-        cat:"front"
+        cat:"front",
+         link:""
 
     },
     {
         id: "5",
         src: xx,
         title: "Webflow  ",
-        cat:"front"
+        cat:"front",
+         link:""
 
     },
     {
         id: "6",
         src: xx,
         title: "Webflow  ",
-        cat:"full"
+        cat:"full",
+         link:""
 
     },
     
