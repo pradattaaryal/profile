@@ -1,7 +1,7 @@
 import xx from './a.jpg'
 import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
-
+import first from '../../Public/Images/first.png'
 const data=[
     {
     id: "1",
@@ -35,7 +35,7 @@ const data=[
     },
     {
         id: "5",
-        src: "xx",
+        src: first,
         title: "first  ",
         cat:"front",
          link:"https://super-simpel-proj.vercel.app/"
