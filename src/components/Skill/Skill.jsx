@@ -30,9 +30,9 @@ const Skill = () => {
             </div>
           </div>
           <div className='md:w-[45%] border-4 border-black shadow-2xl rounded-2xl p-2 md:p-6 flex flex-col justify-center  mb-2 '>
-            <h1 className='text-center pb-8 text-2xl font-semibold'>Frontend Skill</h1>
+            <h1 className='text-center pb-8 text-2xl font-semibold'>Backend Skill</h1>
             <div className='grid grid-cols-2 p-4 ml-6 md:ml-16'>
-            {skillItems.map((item, index) => (
+            {skillItem.map((item, index) => (
                 
                 <div key={index} className=' '>
                   <h2 className='flex items-center text-xl font-medium gap-2'>
