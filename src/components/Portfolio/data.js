@@ -8,7 +8,7 @@ const data=[
     src: ecommerce,
     title: "ecommerce",
     cat:"full",
-    link:""
+    link:"https://eco-5s21.vercel.app/"
     },
     {
         id: "2",
