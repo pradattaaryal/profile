@@ -35,10 +35,10 @@ const data=[
     },
     {
         id: "5",
-        src: xx,
-        title: "Webflow  ",
+        src: "xx",
+        title: "first  ",
         cat:"front",
-         link:""
+         link:"https://super-simpel-proj.vercel.app/"
 
     },
     {
