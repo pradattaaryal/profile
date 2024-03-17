@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter,FaGithub  } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter,FaGithub,FaLinkedin   } from 'react-icons/fa';
  
   
  const Footer = () => {
@@ -12,11 +12,11 @@ import { FaFacebook, FaInstagram, FaTwitter,FaGithub  } from 'react-icons/fa';
       <li>Project</li>
       <li>Skill</li>
       </ul>
-      <div className='flex  gap-2 text-lg sm:text-xl  md:text-3xl pb-10'>
-          <FaFacebook />
-          <FaInstagram />
-          <FaTwitter />
-          <FaGithub />
+      <div className='flex  gap-4 text-lg sm:text-xl  md:text-3xl pb-10'>
+         <a href="https://www.facebook.com/pradatta.aryal.94">  <FaFacebook /></a>
+         <a href="https://www.instagram.com/pradatta_aryal/"> <FaInstagram /></a>
+         <a href="https://www.linkedin.com/in/pradatta-aryal/">  <FaLinkedin />  </a>
+         <a href="https://github.com/pradattaaryal?tab=repositories"> <FaGithub /></a>
       </div>
       <p className='p-5 text-sm font-bold'>©copyright expire 2025. all rights reserved </p>
       </div>
