@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'; // Importing useState and useEffect
 import './Landing.css'
 import x from './x.png';
+import d from './d.png';
  const Landing = () => {
    
   return (
