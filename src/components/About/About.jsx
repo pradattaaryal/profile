@@ -38,7 +38,7 @@ const About = () => {
         </div>
         <p className=' text-wrap   w-[80vw] md:w-[100%]'>I'm a very ambitious student looking to gain experience in both backend and frontend development with the latest technologies.
 I'm confident, naturally curious, and perpetually working on improving my skills and knowledge.</p>
-        <div className='flex bg-black text-white max-w-[180px] p-4 font-semibold text-xl rounded-xl text-center gap-1 shadow-2xl left-0 bg-red-500'> <button onClick={() => window.open(cv, "_blank")} >Download CV </button ><span className='pt-1'>< IoDocumentTextOutline /></span></div> 
+        <div className='flex  text-white max-w-[180px] p-4 font-semibold text-xl rounded-xl text-center gap-1 shadow-2xl left-0 bg-red-500'> <button onClick={() => window.open(cv, "_blank")} >Download CV </button ><span className='pt-1'>< IoDocumentTextOutline /></span></div> 
       </div>
       </div>
      </div>
