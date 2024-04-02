@@ -16,7 +16,8 @@ const data=[
         src: Portfolio,
         title: "Portfolio",
         cat:"front",
-         link:"https://profile-rust-kappa.vercel.app/"
+         link:"https://profile-rust-kappa.vercel.app/",
+        link2:"https://eco-backend-boxa.onrender.com/"
     },
     {
         id: "3",
