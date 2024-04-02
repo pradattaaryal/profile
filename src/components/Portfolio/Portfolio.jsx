@@ -3,6 +3,13 @@ import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 import data from './data';
 
 const Portfolio = () => {
+ const handleClick = (e, link1, link2) => {
+    e.preventDefault();
+    window.open(link1, '_blank');
+    if (link2) {
+      window.open(link2, '_blank');
+    }
+  };
   return (
     <div className='h-screen w-full mt-24 md:mt-0 ' id='portfolio'>
       <div className='max-w-[1140px] h-screen m-auto'>
@@ -18,7 +25,7 @@ const Portfolio = () => {
           </div>
           <div className='w-full h-full  gap-2  md:pl-[140px] grid md:grid-cols-3  grid-cols-2  p-4'>
             {data.map((item, index) => (
-              <a href={item.link}><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
+              <a href={item.link}  onClick={(e) => handleClick(e, item.link, item.link2)}><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
                 <div className='h-[120px] w-full'>
                   <img className='rounded-xl object-cover border-2 border-black' src={item.src} alt='' style={{ height: '100%', width: '100%' }} />
                 </div>
