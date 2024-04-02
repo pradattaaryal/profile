@@ -9,15 +9,16 @@ const data=[
     src: ecommerce,
     title: "ecommerce",
     cat:"full",
-    link:"https://eco-5s21.vercel.app/"
+    link:"https://eco-5s21.vercel.app/",
+link2:"https://eco-backend-boxa.onrender.com/"
     },
     {
         id: "2",
         src: Portfolio,
         title: "Portfolio",
         cat:"front",
-         link:"https://profile-rust-kappa.vercel.app/",
-        link2:"https://eco-backend-boxa.onrender.com/"
+         link:"https://profile-rust-kappa.vercel.app/" 
+        
     },
     {
         id: "3",
