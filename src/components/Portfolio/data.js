@@ -21,7 +21,7 @@ const data=[
     {
         id: "3",
         src: login,
-        title: "Authentication:refresh,accress,google",
+        title: "Authentication:refresh, accress,google",
         cat:"front",
          link:"https://auth-beta-teal.vercel.app/"
 
