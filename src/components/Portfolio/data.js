@@ -21,7 +21,7 @@ const data=[
     {
         id: "3",
         src: login,
-        title: "Authentication:refresh, accress,google  ",
+        title: "Authentication:refresh, accress,google",
         cat:"front",
          link:"https://auth-beta-teal.vercel.app/"
 
@@ -29,7 +29,7 @@ const data=[
     {
         id: "4",
         src: xx,
-        title: "Webflow  ",
+        title: "Webflow",
         cat:"front",
          link:""
 
@@ -37,7 +37,7 @@ const data=[
     {
         id: "5",
         src: first,
-        title: "first  ",
+        title: "first",
         cat:"front",
          link:"https://super-simpel-proj.vercel.app/"
 
@@ -45,7 +45,7 @@ const data=[
     {
         id: "6",
         src: xx,
-        title: "Webflow  ",
+        title: "Webflow",
         cat:"full",
          link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
