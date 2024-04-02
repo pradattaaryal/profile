@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
-import data from './data';
+import data from './data'; // Assuming data is imported from an external file
 
 const Portfolio = () => {
-const handleClick = (e, link2) => {
-    e.preventDefault() ;
-  window.open(link2, '_blank');
+  const handleClick = (e, link1, link2) => {
+    e.preventDefault();
+    window.open(link2, '_blank');
   };
+
   return (
     <div className='h-screen w-full mt-24 md:mt-0 ' id='portfolio'>
       <div className='max-w-[1140px] h-screen m-auto'>
@@ -22,16 +23,20 @@ const handleClick = (e, link2) => {
           </div> 
           <div className='w-full h-full  gap-2  md:pl-[140px] grid md:grid-cols-3  grid-cols-2  p-4'>
             {data.map((item, index) => (
-              <a href={item.link} {item.link2 && onClick={(e) => handleClick(e, item.link1, item.link2)}}><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
-                <div className='h-[120px] w-full'>
-                  <img className='rounded-xl object-cover border-2 border-black' src={item.src} alt='' style={{ height: '100%', width: '100%' }} />
-                </div>
-                <h2>{item.title.split(' ').join(<br>)}</h2> {/* Access item.title */}
-                <div className='flex text-center gap-2'>
-                  <p>Demo</p>
-                  <span className='pt-1'><FaArrowUpRightFromSquare /></span>
-                </div>
-              </div></a>
+              <div key={index}>
+                <a href={item.link} onClick={item.link2 && ((e) => handleClick(e, item.link1, item.link2))}>
+                  <div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md'>
+                    <div className='h-[120px] w-full'>
+                      <img className='rounded-xl object-cover border-2 border-black' src={item.src} alt='' style={{ height: '100%', width: '100%' }} />
+                    </div>
+                    <h2>{item.title.split(' ').join(<br>)}</h2>
+                    <div className='flex text-center gap-2'>
+                      <p>Demo</p>
+                      <span className='pt-1'><FaArrowUpRightFromSquare /></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
             ))}
           </div>
         </div>
