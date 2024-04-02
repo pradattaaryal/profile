@@ -19,7 +19,7 @@ const handleClick = (e, link2) => {
             <button className='border-[3px] border-black p-2 border-solid font-bold text-xl rounded-l-2xl'>All Project</button>
             <button className='border-y-[3px] border-black p-2 border-solid font-bold text-xl'>Fullstack</button>
             <button className='border-[3px] border-black p-2 border-solid font-bold text-xl rounded-r-2xl'>Frontend</button>
-          </div>
+          </div> 
           <div className='w-full h-full  gap-2  md:pl-[140px] grid md:grid-cols-3  grid-cols-2  p-4'>
             {data.map((item, index) => (
               <a href={item.link} {item.link2 && onClick={(e) => handleClick(e, item.link1, item.link2)}}><div className='max-h-[200px] p-2 h-[200px] max-w-[200px] border-2 border-solid border-black hover:shadow-2xl hover:scale-105 hover:shadow-slate-950  mb-6 transition duration-600 shadow-lg rounded-md' key={index}>
