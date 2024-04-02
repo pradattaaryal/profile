@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <div className='h-[120px] w-full'>
                   <img className='rounded-xl object-cover border-2 border-black' src={item.src} alt='' style={{ height: '100%', width: '100%' }} />
                 </div>
-                <h2>{item.title}</h2> {/* Access item.title */}
+                <h2>{item.title.split(' ').join(' <br> ')}</h2> {/* Access item.title */}
                 <div className='flex text-center gap-2'>
                   <p>Demo</p>
                   <span className='pt-1'><FaArrowUpRightFromSquare /></span>
