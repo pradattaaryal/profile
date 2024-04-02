@@ -2,6 +2,7 @@ import xx from './a.jpg'
 import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
 import first from '../../Public/Images/first.png'
+import login from '../../Public/Images/login.png'
 const data=[
     {
     id: "1",
@@ -19,8 +20,8 @@ const data=[
     },
     {
         id: "3",
-        src: xx,
-        title: "Webflow  ",
+        src: login,
+        title: "Authentication:refresh,accress,google  ",
         cat:"front",
          link:""
 
