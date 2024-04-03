@@ -6,7 +6,7 @@ import login from '../../Public/Images/login.png'
 import bf from '../../Public/Images/bf.png'
 
 
-const data=[
+const data=[   
     {
     id: "1",
     src: ecommerce,
