@@ -50,9 +50,9 @@ link2:"https://eco-backend-boxa.onrender.com/"
     {
         id: "6",
         src: xx,
-        title: "Webflow",
+        title: "simple java chapapp",
         cat:"full",
-         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+         link:"https://github.com/pradattaaryal/java-simple-chatapplicatio/tree/main"
 
     },
     
