@@ -3,6 +3,9 @@ import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
 import first from '../../Public/Images/first.png'
 import login from '../../Public/Images/login.png'
+import bf from '../../Public/Images/bf.png'
+
+
 const data=[
     {
     id: "1",
@@ -30,10 +33,10 @@ link2:"https://eco-backend-boxa.onrender.com/"
     },
     {
         id: "4",
-        src: xx,
-        title: "Webflow",
+        src: bf,
+        title: "react-frontend",
         cat:"front",
-         link:""
+         link:"https://beach-frontend.vercel.app/"
 
     },
     {
