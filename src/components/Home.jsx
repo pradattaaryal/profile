@@ -12,7 +12,7 @@ import Footer from './Footer/Footer'
      <Header></Header>
      <Landing></Landing>
      <About></About>
-     <Label></Label>
+     
       <Skill></Skill>
      <Portfolio></Portfolio>
      <Footer></Footer>
