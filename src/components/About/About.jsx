@@ -4,6 +4,7 @@ import y from './y.jpeg'
 import cv from './cv.pdf'
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
+import { MdOutlineMenuBook } from "react-icons/md";
 
 const About = () => {
   return (
@@ -21,9 +22,9 @@ const About = () => {
         <div className=' w-full  flex justify-center gap-4  ml-2 '> 
          
         <div className=' border-2 h-[100px] border-black shadow-xl w-[30%]  p-4 flex flex-col rounded-xl justify-center items-center'>
-          <span className='text-2xl '><MdWorkOutline /></span>
-          <h3 className=' text-lg font-bold'>Completed</h3>
-          <p className=' font-medium'>5+ Projects</p>
+          <span className='text-2xl '><MdOutlineMenuBook /></span>
+          <h3 className=' text-lg font-bold'>currently</h3>
+          <p className=' font-medium'>7th Sem</p>
         </div>
         <div className=' border-2 h-[100px] border-black shadow-xl w-[30%]  p-4 flex flex-col rounded-xl justify-center items-center'>
           <span className='text-2xl '><MdWorkOutline /></span>
