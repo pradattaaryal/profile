@@ -21,12 +21,13 @@ const Info = () => {
    };
 
   return (
-    <div className=" h-screen w-full flex items-center">
-    <div className="max-w-[1140px] border-2 border-black rounded-xl max-h-[600px] p-6 px-28 shadow-2xl m-auto flex justify-center ">
-      <pre className="   rounded-md  overflow-hidden">
-        {JSON.stringify(studentData, null, 2)}
-      </pre>
-    </div></div>
+    <div className="w-full flex items-center justify-center">
+      <div className="max-w-[1140px] w-full lg:w-auto border-2 border-black rounded-xl p-6 lg:px-28 shadow-2xl m-4 lg:m-auto">
+        <pre className="rounded-md overflow-hidden">
+          {JSON.stringify(studentData, null, 2)}
+        </pre>
+      </div>
+    </div>
   );
 };
 
