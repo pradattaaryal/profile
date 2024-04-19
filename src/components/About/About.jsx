@@ -16,7 +16,7 @@ const About = () => {
 
       
       <div className='  w-full   md:max-w-[1140px] max-h-[100vh] min-h-[70vh] md:p-6  flex  md:flex-row sm:justify-center items-center flex-col  md:justify-between'> 
-      <div className='  w-[50%] flex items-center shadow-2xl justify-center mb-5 '><img className="rounded-3xl  h-[180px] w-[160px]  sm:h-[280px] sm:w-[250px] md:h-[400px] md:w-[350px] " src={y} alt=""  /></div>
+      <div className='  w-[50%] flex items-center  justify-center mb-5 '><img className="rounded-3xl shadow-2xl h-[180px] w-[160px]  sm:h-[280px] sm:w-[250px] md:h-[400px] md:w-[350px] " src={y} alt=""  /></div>
       <div className='  w-[95vw] md:w-[50%] flex flex-col justify-around gap-16 items-center  '>
         <div className=' w-full  flex justify-center gap-4  ml-2 '> 
          
