@@ -3,11 +3,11 @@ import t from './t.png';
 
 export default function P() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center border-2 border-black shadow-2xl bg-gray-500  ">
-      <div className="container grid items-start gap-6 bg-pink-600 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
+    <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center border-2 border-black shadow-2xl bg-white ">
+      <div className="container grid items-start gap-6   px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Project Overview</h2>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed 0">
+          <p className="max-w-[600px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed 0">
            Mern Socialmedia web applicaation focusing on learning building api,handling request and response,debugging,real wrold project
           </p>
  <p className="max-w-[600px] text-red-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed  ">
@@ -50,13 +50,13 @@ export default function P() {
             </div>
           </div>
         </div>
-        <div className="grid ">
+        <div className="flex items-center ">
           <img
             alt="Project Screenshot"
             className="w-full h-full overflow-hidden rounded-xl object-contain border-2 border-black"
-            height={300}
+            height={320}
             src={t}
-            width={600}
+            width={580}
           />
           
         </div>
