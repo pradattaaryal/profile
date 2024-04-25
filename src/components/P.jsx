@@ -28,7 +28,7 @@ export default function P() {
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 h-4 w-4 text-primary" />
-                  Optimized for performance and scalability
+                  create post,like,save,follow.view others e.t.c functionalities
                 </li>
               </ul>
             </div>
@@ -37,11 +37,11 @@ export default function P() {
               <ul className="mt-2 space-y-2 text-gray-500  ">
                 <li className="flex items-center">
                   <CalendarIcon className="mr-2 h-4 w-4 text-primary" />
-                  Completed: April 2023
+                  Completed: April 2024
                 </li>
                 <li className="flex items-center">
                   <UserIcon className="mr-2 h-4 w-4 text-primary" />
-                  Client: Acme Inc.
+                 For learning purpose
                 </li>
                 <li className="flex items-center">
                   <TagIcon className="mr-2 h-4 w-4 text-primary" />
