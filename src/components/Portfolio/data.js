@@ -7,8 +7,16 @@ import bf from '../../Public/Images/bf.png'
 
 
 const data=[   
-    {
-    id: "1",
+ {
+        id: "1",
+        src: first,
+        title: "Mern-Socialedia",
+        cat:"Fullstack",
+         link:"https://profile-eight-dun.vercel.app/p"
+
+    },   
+ {
+    id: "2",
     src: ecommerce,
     title: "ecommerce",
     cat:"full",
@@ -16,15 +24,15 @@ const data=[
 link2:"https://eco-backend-boxa.onrender.com/"
     },
     {
-        id: "2",
+        id: "3",
         src: Portfolio,
         title: "Portfolio",
         cat:"front",
-         link:"https://profile-rust-kappa.vercel.app/" 
+         link:"https://profile-eight-dun.vercel.app/" 
         
     },
     {
-        id: "3",
+        id: "4",
         src: login,
         title: "Authentication:refresh, accress,google",
         cat:"front",
@@ -32,22 +40,14 @@ link2:"https://eco-backend-boxa.onrender.com/"
 
     },
     {
-        id: "4",
+        id: "5",
         src: bf,
         title: "react-frontend",
         cat:"front",
          link:"https://beach-frontend.vercel.app/"
 
     },
-    {
-        id: "5",
-        src: first,
-        title: "first",
-        cat:"front",
-         link:"https://super-simpel-proj.vercel.app/"
-
-    },
-    {
+     {
         id: "6",
         src: xx,
         title: "simple java chapapp",
