@@ -9,7 +9,7 @@ export default function P() {
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Project Overview</h2>
           <p className="max-w-[600px]  md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed 0">
-           Mern Socialmedia web applicaation focusing on learning building api,handling request and response,debugging,real wrold project
+           Mern Socialmedia web application focusing on learning building api,handling request and response,debugging,real wrold project
           </p>
  <p className="max-w-[600px] text-red-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed  ">
           Due to some issuses i am unable to host this project here is github <a href="https://github.com/pradattaaryal/social" className="text-blue-500">link</a>
@@ -17,7 +17,7 @@ export default function P() {
           <div className="grid gap-4">
             <div>
               <h3 className="text-lg font-semibold">Key Features</h3>
-              <ul className="mt-2 space-y-2 text-gray-500  ">
+              <ul className="mt-2 space-y-2   ">
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 h-4 w-4 text-primary" />
                   Responsive and mobile-friendly design
@@ -34,7 +34,7 @@ export default function P() {
             </div>
             <div>
               <h3 className="text-lg font-semibold">Project Details</h3>
-              <ul className="mt-2 space-y-2 text-gray-500  ">
+              <ul className="mt-2 space-y-2   ">
                 <li className="flex items-center">
                   <CalendarIcon className="mr-2 h-4 w-4 text-primary" />
                   Completed: April 2024
