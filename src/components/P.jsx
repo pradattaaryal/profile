@@ -51,7 +51,7 @@ export default function P() {
             </div>
           </div>
         </div>
-        <div className="flex items-center mt-16 ">
+        <div className="flex items-center  pt-10 ">
           <div>
           <img
             alt="Project Screenshot"
