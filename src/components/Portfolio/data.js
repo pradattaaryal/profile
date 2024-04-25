@@ -1,15 +1,15 @@
 import xx from './a.jpg'
 import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
-import first from '../../Public/Images/first.png'
-import login from '../../Public/Images/login.png'
+ import login from '../../Public/Images/login.png'
 import bf from '../../Public/Images/bf.png'
+import t from '../../Public/Images/t.png'
 
 
 const data=[   
  {
         id: "1",
-        src: first,
+        src: t,
         title: "Mern-Socialedia",
         cat:"Fullstack",
          link:"https://profile-eight-dun.vercel.app/p"
