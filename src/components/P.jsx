@@ -54,7 +54,7 @@ export default function P() {
           <img
             alt="Project Screenshot"
             className="w-full h-full overflow-hidden rounded-xl object-contain border-2 border-black"
-            height={400}
+            height={300}
             src={t}
             width={600}
           />
