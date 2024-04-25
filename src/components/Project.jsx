@@ -50,7 +50,7 @@ export default function Projectsocial() {
             </div>
           </div>
         </div>
-        <div className="grid gap-4">
+        <div className="grid ">
           <img
             alt="Project Screenshot"
             className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
