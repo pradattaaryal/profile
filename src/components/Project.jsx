@@ -2,17 +2,20 @@ import React from 'react';
 
 export default function Projectsocial() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-white  ">
       <div className="container grid items-start gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Project Overview</h2>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Dive into the details of our latest project, showcasing our expertise in design and development.
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed 0">
+           Mern Socialmedia web applicaation focusing on learning building api,handling request and response,debugging,real wrold project
+          </p>
+ <p className="max-w-[600px] text-red-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed  ">
+          Due to some issuses i am unable to host this project here is github link
           </p>
           <div className="grid gap-4">
             <div>
               <h3 className="text-lg font-semibold">Key Features</h3>
-              <ul className="mt-2 space-y-2 text-gray-500 dark:text-gray-400">
+              <ul className="mt-2 space-y-2 text-gray-500  ">
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 h-4 w-4 text-primary" />
                   Responsive and mobile-friendly design
@@ -29,7 +32,7 @@ export default function Projectsocial() {
             </div>
             <div>
               <h3 className="text-lg font-semibold">Project Details</h3>
-              <ul className="mt-2 space-y-2 text-gray-500 dark:text-gray-400">
+              <ul className="mt-2 space-y-2 text-gray-500  ">
                 <li className="flex items-center">
                   <CalendarIcon className="mr-2 h-4 w-4 text-primary" />
                   Completed: April 2023
@@ -54,20 +57,7 @@ export default function Projectsocial() {
             src="/placeholder.svg"
             width={600}
           />
-          <img
-            alt="Project Screenshot"
-            className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
-            height={400}
-            src="/placeholder.svg"
-            width={600}
-          />
-          <img
-            alt="Project Screenshot"
-            className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
-            height={400}
-            src="/placeholder.svg"
-            width={600}
-          />
+          
         </div>
       </div>
     </section>
