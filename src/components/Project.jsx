@@ -54,20 +54,7 @@ export default function Projectsocial() {
             src="/placeholder.svg"
             width={600}
           />
-          <img
-            alt="Project Screenshot"
-            className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
-            height={400}
-            src="/placeholder.svg"
-            width={600}
-          />
-          <img
-            alt="Project Screenshot"
-            className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
-            height={400}
-            src="/placeholder.svg"
-            width={600}
-          />
+           
         </div>
       </div>
     </section>
