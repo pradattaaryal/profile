@@ -53,7 +53,7 @@ export default function P() {
         <div className="grid ">
           <img
             alt="Project Screenshot"
-            className="aspect-[3/2] overflow-hidden rounded-xl object-contain border-2 border-black"
+            className="aspect-[3/1] overflow-hidden rounded-xl object-contain border-2 border-black"
             height={400}
             src={t}
             width={600}
