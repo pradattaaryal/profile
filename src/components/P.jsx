@@ -11,7 +11,7 @@ export default function P() {
            Mern Socialmedia web applicaation focusing on learning building api,handling request and response,debugging,real wrold project
           </p>
  <p className="max-w-[600px] text-red-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed  ">
-          Due to some issuses i am unable to host this project here is github link
+          Due to some issuses i am unable to host this project here is github <a href="https://github.com/pradattaaryal/social" className="text-black">link</a>
           </p>
           <div className="grid gap-4">
             <div>
