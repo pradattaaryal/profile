@@ -1,4 +1,5 @@
 import React from 'react';
+import t from './t.png';
 
 export default function Projectsocial() {
   return (
@@ -54,7 +55,7 @@ export default function Projectsocial() {
             alt="Project Screenshot"
             className="aspect-[3/2] overflow-hidden rounded-xl object-cover"
             height={400}
-            src="/placeholder.svg"
+            src={t}
             width={600}
           />
           
