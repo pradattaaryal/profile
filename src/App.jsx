@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './components/Home';
 import About from './components/About/About';
 import Home from './components/Home';
-import Projectsocial from './components/Project.jsx';
+import Projectsocial from './components/Project';
 
 const App = () => {
   return (
