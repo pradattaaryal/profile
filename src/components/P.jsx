@@ -4,7 +4,7 @@ import t from './t.png';
 export default function P() {
   return (
     <section className="w-full h-screen py-12 md:py-24 lg:py-24 flex justify-center bg-white ">
-<div className="max-w-[1140px] w-full h-full  border-2 border-black shadow-2xl rounded-2xl p-6">  
+<div className="max-w-[1140px] w-full h-full  border-2 border-black shadow-2xl rounded-2xl p-4">  
  <div className="container    grid items-start gap-6   px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Project Overview</h2>
