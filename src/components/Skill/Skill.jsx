@@ -24,7 +24,7 @@ const Skill = () => {
                   <PiSealCheckFill/>
                     <span>{item.skill}</span>
                   </h2>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               ))}
             </div>
