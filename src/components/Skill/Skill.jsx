@@ -3,8 +3,8 @@ import { PiSealCheckFill } from 'react-icons/pi';
  
 
 const Skill = () => {
-  const skillItems = [{skill:"HTML" },{skill:"CSS" },{skill:"React", },{skill:"tailwind" },{skill:"Js" },];
-  const skillItem = [{skill:"JS" }, {skill:"Node" }, {skill:"Sql" }, {skill:"Mongoodb" }, {skill:"express" }];
+  const skillItems = [{skill:"HTML" },{skill:"CSS" },{skill:"React", },{skill:"tailwind" },{skill:"Js" },{skill:"NextJs"}];
+  const skillItem = [{skill:"JS" }, {skill:"Node" }, {skill:"Sql" }, {skill:"Mongoodb" }, {skill:"express" },{skill:".Net" }];
 
   return (
     <div className='  w-full bg-white  ' id='skill'>
@@ -39,7 +39,7 @@ const Skill = () => {
                   <PiSealCheckFill/>
                     <span>{item.skill}</span>
                   </h2>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               ))}
             </div>
