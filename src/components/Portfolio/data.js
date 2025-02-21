@@ -3,7 +3,7 @@ import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
  import login from '../../Public/Images/login.png'
 import bf from '../../Public/Images/bf.png'
-import t from '../../Public/Images/t.png'
+import s from '../../Public/Images/s.jpg'
 import c from '../../Public/Images/c.jpeg'
 
 
@@ -17,10 +17,10 @@ const data = [
     },
     {
         id: "2",
-        src: t,
-        title: "Mern-Socialedia",
+        src: s,
+        title: " NextJs-Socialedia",
         cat: "Fullstack",
-        link: "https://profile-eight-dun.vercel.app/p"
+        link: "https://twitter-clone-f8kb.vercel.app/"
     },
     {
         id: "3",
