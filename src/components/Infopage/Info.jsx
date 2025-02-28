@@ -15,26 +15,25 @@ const Info = () => {
       "MySQL"
     ],
     "projects": [
-      {
-        "title": ".NET LMS",
-        "description": "Developed an LMS application in ASP.NET implementing CQRS, Clean Architecture, MediatR, and JWT authentication."
-      },
-      {
-        "title": "Food Delivery Admin Dashboard",
-        "description": "Built an interactive dashboard using React, Tailwind CSS, and Chart.js for real-time data visualization."
-      },
-      {
-        "title": "E-Commerce Platform",
-        "description": "Built a full-stack Next.js e-commerce application with a shopping cart, admin dashboard, and product category management."
-      },
-      {
-        "title": "Next.js Social Media Application",
-        "description": "Developed a full-stack social media platform with authentication, user profiles, post creation, and following system."
-      },
-      {
-        "title": "Portfolio Website",
-        "description": "Designed and developed a personal portfolio using React and Tailwind CSS to showcase technical skills and projects."
-      }
+  {
+  "title": ".NET LMS",
+  "clear architecture,mediatr,cqrs,Sql,Razor,Repository"
+  },
+  {
+   "title": "Next js E-Commerce Platform",
+   "Next js, Aws s3,Auth Js,Strip"
+  },
+  {
+  "title": "Next.js Social Media Application",
+  "Pusher, Next js, Clerk"
+  },
+  {
+  "title": "Food Delivery Admin Dashboard",
+  "react, tailwind, chartJs"
+  },
+  {
+  "title": "Portfolio Website",
+  }
     ],
     "interests": ["Backend Development", "Cloud Computing", "System Architecture", "Frontend"],
     "contact": {
