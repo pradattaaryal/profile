@@ -36,10 +36,6 @@ const Info = () => {
   }
     ],
     "interests": ["Backend Development", "Cloud Computing", "System Architecture", "Frontend"],
-    "contact": {
-      "email": "pradattaaryal2468@gmail.com",
-      "linkedin": "https://www.linkedin.com/in/pradatta-aryal"
-    }
   };
 
   return (
