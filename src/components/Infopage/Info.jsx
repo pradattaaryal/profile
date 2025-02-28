@@ -17,19 +17,19 @@ const Info = () => {
     "projects": [
   {
   "title": ".NET LMS",
-  "clear architecture,mediatr,cqrs,Sql,Razor,Repository"
+  "Tech":"clear architecture,mediatr,cqrs,Sql,Razor,Repository"
   },
   {
    "title": "Next js E-Commerce Platform",
-   "Next js, Aws s3,Auth Js,Strip"
+   "Tech":"Next js, Aws s3,Auth Js,Strip"
   },
   {
   "title": "Next.js Social Media Application",
-  "Pusher, Next js, Clerk"
+  "Tech":"Pusher, Next js, Clerk"
   },
   {
   "title": "Food Delivery Admin Dashboard",
-  "react, tailwind, chartJs"
+  "Tech":"react, tailwind, chartJs"
   },
   {
   "title": "Portfolio Website",
