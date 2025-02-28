@@ -2,23 +2,50 @@ import React from "react";
 
 const Info = () => {
   const studentData = {
-    "name": "Pradatta Aryal",
-    "age": 21,
-    "major": "Bachelor In Information Management",
-    "skills": [`React,Node,Express,Mongoose,SQL,Js`],
-    "projects": [
-      {
-        "title": "E-commerce full stack",
-       },
-      {
-        "title": "Scoialmedia full stack",
-       },
-      {
-        "title": "Single Page Resort frontend",
-       }
-    ],
-    "interests": ["Backend Development",  "Cloud Computing" ],
-   };
+const studentData = {
+  "name": "Pradatta Aryal",
+  "age": 21,
+  "major": "Bachelor of Information Management",
+  "skills": [
+    ".NET (ASP.NET, C#)", 
+    "Python", 
+    "Node.js", 
+    "Express.js", 
+    "React", 
+    "Tailwind CSS", 
+    "MySQL", 
+  ],
+  "projects": [
+    {
+      "title": ".NET LMS",
+      "description": "Developed a LMS application in ASP.NET implementing CQRS, Clean Architecture, MediatR, and JWT authentication."
+    },
+    {
+      "title": "Food delivery Admin Dashboard",
+      "description": "Built an interactive dashboard using React, Tailwind CSS, and Chart.js for real-time data visualization."
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "Built a full-stack Next Js e-commerce application with a shopping cart, admin dashboard, and product category management."
+    },
+    {
+      "title": NextJs Social Media Application",
+      "description": "Developed a full-stack social media platform with authentication, user profiles, post creation, and following system."
+    }
+    {
+      "title": "Portfolio Website",
+      "description": "Designed and developed a personal portfolio using React and Tailwind CSS to showcase technical skills and projects."
+    },
+   
+    
+  ],
+  "interests": ["Backend Development", "Cloud Computing", "System Architecture","Forntend"],
+  "contact": {
+    "email": "pradattaaryal2468@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pradatta-aryal"
+  }
+};
+
 
   return (
     <div className="w-full flex items-center p-4 justify-center">
