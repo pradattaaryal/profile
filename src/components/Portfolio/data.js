@@ -3,6 +3,7 @@ import Portfolio from '../../Public/Images/p.png'
 import ecommerce from '../../Public/Images/e.png'
  import login from '../../Public/Images/login.png'
 import bf from '../../Public/Images/bf.png'
+import ee from '../../Public/Images/ee.png'
 import s from '../../Public/Images/s.jpg'
 import c from '../../Public/Images/c.jpeg'
 
@@ -10,10 +11,10 @@ import c from '../../Public/Images/c.jpeg'
 const data = [
     {
         id: "1",
-        src: c,  
-        title: "Food Delivery App",
+         src: ee,
+        title: "NextJs Ecommerce",
         cat: "Fullstack",
-        link: "https://food-delivery-frontend-gilt.vercel.app/"
+        link: "https://next-ecommerce-gold-eight.vercel.app/",
     },
     {
         id: "2",
@@ -24,11 +25,11 @@ const data = [
     },
     {
         id: "3",
-        src: ecommerce,
-        title: "Ecommerce",
+       src: c,  
+        title: "Food Delivery App",
         cat: "Fullstack",
-        link: "https://eco-5s21.vercel.app/",
-        link2: "https://eco-backend-boxa.onrender.com/"
+        link: "https://food-delivery-frontend-gilt.vercel.app/"
+         
     },
     {
         id: "4",
