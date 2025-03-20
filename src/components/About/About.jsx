@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 import y from './y.jpeg';
-import p from './p.pdf'
+import p from './Pradatta Aryal.pdf'
 
  import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
