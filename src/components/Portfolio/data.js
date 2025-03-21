@@ -41,9 +41,9 @@ const data = [
     {
         id: "5",
         src: login,
-        title: "Authentication: Refresh, Access, Google",
+        title: ".NET LMS with clean arch",
         cat: "Frontend",
-        link: "https://auth-beta-teal.vercel.app/"
+        link: "https://github.com/pradattaaryal/Backend-LMS"
     },
     {
         id: "6",
