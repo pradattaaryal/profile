@@ -8,7 +8,7 @@ import P from './components/P';
 const App = () => {
   return (
     <Router>
-       
+      { /*sdcldslcnsdkjn*/ }
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/P" element={<P/>} />
