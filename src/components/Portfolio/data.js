@@ -14,7 +14,7 @@ const data = [
          src: ee,
         title: "NextJs Ecommerce",
         cat: "Fullstack",
-        link: "https://next-ecommerce-gold-eight.vercel.app/",
+        link: "https://next-ecommerce-five-red.vercel.app/",
     },
     {
         id: "2",
