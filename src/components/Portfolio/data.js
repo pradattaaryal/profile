@@ -6,6 +6,7 @@ import bf from '../../Public/Images/bf.png'
 import ee from '../../Public/Images/ee.png'
 import s from '../../Public/Images/s.jpg'
 import c from '../../Public/Images/c.jpeg'
+import jenkins from '../../Public/Images/jenkins.png'
 
 
 const data = [
@@ -21,7 +22,7 @@ const data = [
         src: s,
         title: " NextJs-Socialedia",
         cat: "Fullstack",
-        link: "https://twitter-clone-f8kb.vercel.app/"
+        link: "https://twitter-clone-4p6i.vercel.app/"
     },
     {
         id: "3",
@@ -33,10 +34,10 @@ const data = [
     },
     {
         id: "4",
-        src: Portfolio,
-        title: "Portfolio",
+        src: jenkins,
+        title: "CICD with Jenkins EC2",
         cat: "Frontend",
-        link: "https://profile-eight-dun.vercel.app/"
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7326084764426207233/"
     },
     {
         id: "5",

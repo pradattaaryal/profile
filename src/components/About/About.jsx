@@ -1,7 +1,7 @@
 // About.js
 import React from 'react';
 import y from './y.jpeg';
-import p from './Pradatta Aryal.pdf'
+import CV from './CV.pdf'
 
  import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
@@ -22,11 +22,7 @@ const About = () => {
       <div className='  w-[95vw] md:w-[50%] flex flex-col justify-around gap-16 items-center  '>
         <div className=' w-full  flex justify-center gap-4  ml-2 '> 
          
-        <div className=' border-2 h-[100px] border-black shadow-xl w-[30%]  p-4 flex flex-col rounded-xl justify-center items-center'>
-          <span className='text-2xl '><MdOutlineMenuBook /></span>
-          <h3 className=' text-lg font-bold'>currently</h3>
-          <p className=' font-medium'>7th Sem</p>
-        </div>
+        
         <div className=' border-2 h-[100px] border-black shadow-xl w-[30%]  p-4 flex flex-col rounded-xl justify-center items-center'>
           <span className='text-2xl '><MdWorkOutline /></span>
           <h3 className=' text-lg font-bold'>Completed</h3>
@@ -34,9 +30,9 @@ const About = () => {
         </div>
          
         </div>
-        <p className=' text-wrap   w-[80vw] md:w-[100%]'>I'm a very ambitious student looking to gain experience in both backend and frontend development with the latest technologies.
+        <p className=' text-wrap   w-[80vw] md:w-[100%]'>I'm a very ambitious student looking to gain experience in FullStack development and Devops with the latest technologies.
 I'm confident, naturally curious, and perpetually working on improving my skills and knowledge.</p>
-        <div className='flex  text-white max-w-[180px] p-4 font-semibold text-xl rounded-xl text-center gap-1 shadow-2xl left-0 bg-black'><button onClick={() => window.open(p,"_blank")} >Download CV</button > <span className='pt-1'>< IoDocumentTextOutline /></span></div> 
+        <div className='flex  text-white max-w-[180px] p-4 font-semibold text-xl rounded-xl text-center gap-1 shadow-2xl left-0 bg-black'><button onClick={() => window.open(CV,"_blank")} >Download CV</button > <span className='pt-1'>< IoDocumentTextOutline /></span></div> 
       </div>
       </div>
      </div>

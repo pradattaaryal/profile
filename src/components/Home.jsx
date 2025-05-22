@@ -6,7 +6,8 @@ import Skill from './Skill/Skill'
 import Portfolio from '../components/Portfolio/Portfolio'
  import Label from './Marquee/Marquee'
 import Footer from './Footer/Footer'
-import Info from './Infopage/Info'
+ 
+import Experience from './Experience/Experience'
 
  const Home = () => {
   return (
@@ -14,8 +15,10 @@ import Info from './Infopage/Info'
      <Header></Header>
      <Landing></Landing>
      <About></About>
-     <Info></Info>
-      <Skill></Skill>
+     <Skill></Skill>
+    <Experience></Experience>
+ 
+      
      <Portfolio></Portfolio>
      <Footer></Footer>
      </>
