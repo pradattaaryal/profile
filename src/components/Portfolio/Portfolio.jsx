@@ -19,7 +19,7 @@ const Portfolio = () => {
     : data.filter(item => item.cat === filter);
 
   return (
-    <div className='h-screen w-full mt-24 md:mt-0 ' id='projects'>
+    <div className='min-h-screen w-full mt-24 md:mt-0 ' id='projects'>
       <div className='max-w-[1140px] h-screen m-auto'>
         <div className='md:h-[25vh] sm:h-[25vh] md:pt-16 sm:pt-8 flex flex-col items-center'>
           <h1 className='p-2 pt-4 text-xl sm:text-3xl md:text-5xl xl:text-7xl tracking-wide font-semibold'>Projects</h1>
