@@ -1,43 +1,61 @@
-// About.js
-import React from 'react';
+import React from "react";
 import y from './y.jpeg';
-import CV from './CV.pdf'
-
- import { IoDocumentTextOutline } from "react-icons/io5";
+import CV from './CV.pdf';
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
-import { MdOutlineMenuBook } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
-const About = () => {
+const AboutMe = () => {
   return (
-     <div id='about' className='h-screen w-full  '>
-     <div  className='h-screen max-w-[1140px]  m-auto  '>
-      <div className='  md:h-[25vh] sm:h-[25vh]  md:pt-16 sm:pt-8 flex flex-col  items-center'>
-        <h1 className='p-2 pt-4  text-xl sm:text-3xl  md:text-5xl  xl:text-7xl tracking-wide font-semibold'>About Me</h1>
-        <p className=' text-xl font-medium'>My Introduction</p>
-      </div>
+    <section className="py-16 px-4 max-w-6xl mx-auto h-screen" id="about">
+      <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
+        {/* Left Column - Image and Download */}
+        <div className="space-y-6 flex flex-col items-center lg:items-start">
+          <div className="relative">
+            <div className="w-80 h-80 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 shadow-2xl border-2 border-black">
+              <img src={y} alt="Profile" className="w-full h-full object-cover" />
+            </div>
+            <div className="absolute -bottom-4 -right-4 bg-green-500 w-8 h-8 rounded-full border-4 border-white"></div>
+          </div>
 
-      
-      <div className='  w-full   md:max-w-[1140px] max-h-[100vh] min-h-[70vh] md:p-6  flex  md:flex-row sm:justify-center items-center flex-col  md:justify-between'> 
-      <div className='  w-[50%] flex items-center  justify-center mb-5 '><img className="rounded-3xl border-4 border-black shadow-2xl h-[180px] w-[160px]  sm:h-[280px] sm:w-[250px] md:h-[400px] md:w-[350px] " src={y} alt=""  /></div>
-      <div className='  w-[95vw] md:w-[50%] flex flex-col justify-around gap-16 items-center  '>
-        <div className=' w-full  flex justify-center gap-4  ml-2 '> 
-         
-        
-        <div className=' border-2 h-[100px] border-black shadow-xl w-[30%]  p-4 flex flex-col rounded-xl justify-center items-center'>
-          <span className='text-2xl '><MdWorkOutline /></span>
-          <h3 className=' text-lg font-bold'>Completed</h3>
-          <p className=' font-medium'>5+ Projects</p>
-        </div>
-         
-        </div>
-        <p className=' text-wrap   w-[80vw] md:w-[100%]'>I'm a very ambitious student looking to gain experience in FullStack development and Devops with the latest technologies.
-I'm confident, naturally curious, and perpetually working on improving my skills and knowledge.</p>
-        <div className='flex  text-white max-w-[180px] p-4 font-semibold text-xl rounded-xl text-center gap-1 shadow-2xl left-0 bg-black'><button onClick={() => window.open(CV,"_blank")} >Download CV</button > <span className='pt-1'>< IoDocumentTextOutline /></span></div> 
-      </div>
-      </div>
-     </div>
-     </div>
-  )
-}
+          <div className="flex items-center gap-3">
+            <IoLocationOutline className="w-5 h-5 text-gray-500" />
+            <span className="text-gray-700">Kathmandu, Nepal</span>
+          </div>
 
-export default About;
+          <div>
+            <button
+              onClick={() => window.open(CV, "_blank")}
+              className="flex items-center bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900"
+            >
+              Download CV <IoDocumentTextOutline className="ml-2" />
+            </button>
+          </div>
+        </div>
+
+        {/* Right Column - About Content */}
+        <div className="space-y-8 flex flex-col justify-center h-full">
+          <div>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">Hi, I'm [Your Name]</h1>
+            <h2 className="text-xl text-gray-600 mb-6">Aspiring Full-Stack Developer & DevOps Enthusiast</h2>
+            <p className="text-gray-700 leading-relaxed">
+              I'm a very ambitious student looking to gain experience in FullStack development and DevOps with the latest technologies.
+              I'm confident, naturally curious, and perpetually working on improving my skills and knowledge.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg shadow-lg">
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Let's work together!</h3>
+            <p className="text-gray-600 mb-4">I'm always interested in new opportunities and exciting projects.</p>
+            <button className="flex items-center bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900">
+              Get In Touch <MdOutlineMailOutline className="ml-2" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutMe;
