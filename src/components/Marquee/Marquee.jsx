@@ -29,15 +29,15 @@ const Label = () => {
 
   return (
     <div className="w-full  overflow-hidden bg-white py-6">
-      <div className="relative h-full">
+      <div className="relative p-6 h-full">
         {/* Duplicate icons array to create a seamless loop */}
-  <Marquee speed={200} loop={0} play={true}>           {[...icons, ...icons].map(({ Icon, name }, index) => (
+  <Marquee speed={40} loop={0} play={true}>           {[...icons, ...icons].map(({ Icon, name }, index) => (
             <div
               key={`${name}-${index}`}
-              className="flex items-center mx-4 p-5 px-10 bg-white   rounded-lg   hover:shadow-lg   border-2 border-black  shadow-2xl hover:shadow-red-700   duration-300"
+              className="flex items-center mx-4 p-5 px-10     rounded-lg    bg-black   border-2 border-black  hover:shadow-2xl hover:shadow-black   duration-300"
             >
-              <Icon className=" text-5xl text-black mr-2" />
-              <span className="text-black font-semibold text-lg">{name}</span>
+              <Icon className=" text-5xl text-white mr-2" />
+              <span className="text-white font-semibold text-lg">{name}</span>
             </div>
           ))}
         </Marquee>
