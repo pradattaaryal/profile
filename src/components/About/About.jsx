@@ -8,7 +8,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const AboutMe = () => {
   return (
-    <section className="py-16 px-4 max-w-6xl mx-auto h-screen" id="about">
+    <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="about">
       <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
         {/* Left Column - Image and Download */}
         <div className="space-y-6 flex flex-col items-center lg:items-start">

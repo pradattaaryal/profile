@@ -4,10 +4,11 @@ import Landing from './Landing/Landing'
 import About from './About/About'
 import Skill from './Skill/Skill'
 import Portfolio from '../components/Portfolio/Portfolio'
- import Label from './Marquee/Marquee'
+ 
 import Footer from './Footer/Footer'
  
 import Experience from './Experience/Experience'
+import Label from './Marquee/Marquee'
 
  const Home = () => {
   return (
@@ -15,6 +16,7 @@ import Experience from './Experience/Experience'
      <Header></Header>
      <Landing></Landing>
      <About></About>
+    <Label/>
      <Skill></Skill>
     <Experience></Experience>
  

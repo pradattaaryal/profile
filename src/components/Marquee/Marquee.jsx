@@ -1,16 +1,50 @@
-import React from 'react'
+
 import Marquee from "react-fast-marquee";
-import { FaRegSadCry } from "react-icons/fa";
+ 
+import React from 'react';
+import { FaReact, FaDocker, FaAws, FaGitAlt, FaLinux, FaNodeJs, FaPython } from 'react-icons/fa';
+import { SiDotnet, SiMongodb, SiPostgresql, SiJenkins, SiTypescript, SiNextdotjs, SiTailwindcss, SiDjango, SiRabbitmq, SiTrivy, SiSonarqube } from 'react-icons/si';
 
 const Label = () => {
-  return (
-    <div className='border-y-4 border-double border-black mt-14'>
-    <Marquee speed={200} loop={0} play={true}> 
-    <div className='flex'>
-      <h1 className={`font-fira font-extrabold text-[50px] sm:text-[80px] md:text-[10rem] xl:text-[200px]  text-white p-2 mb-8 `}> Hire me plz </h1><span className='text-black  font-extrabold text-[50px] sm:text-[80px] md:text-[10rem] xl:text-[200px] pt-6 sm:pt-10 md:pt-20 pl-8 '> <FaRegSadCry />
-</span>
-    </div></Marquee></div>
-  )
-}
+  const icons = [
+    { Icon: FaReact, name: 'React' },
+    { Icon: FaDocker, name: 'Docker' },
+    { Icon: FaAws, name: 'AWS' },
+    { Icon: FaGitAlt, name: 'Git' },
+    { Icon: FaLinux, name: 'Linux' },
+    { Icon: FaNodeJs, name: 'Node.js' },
+    { Icon: FaPython, name: 'Python' },
+    { Icon: SiDotnet, name: '.NET' },
+    { Icon: SiMongodb, name: 'MongoDB' },
+    { Icon: SiPostgresql, name: 'PostgreSQL' },
+    { Icon: SiJenkins, name: 'Jenkins' },
+    { Icon: SiTypescript, name: 'TypeScript' },
+    { Icon: SiNextdotjs, name: 'Next.js' },
+    { Icon: SiTailwindcss, name: 'Tailwind CSS' },
+    { Icon: SiDjango, name: 'Django' },
+    { Icon: SiRabbitmq, name: 'RabbitMQ' },
+    { Icon: SiTrivy, name: 'Trivy' },
+    { Icon: SiSonarqube, name: 'SonarQube' },
+  ];
 
-export default Label
+  return (
+    <div className="w-full  overflow-hidden bg-white py-6">
+      <div className="relative h-full">
+        {/* Duplicate icons array to create a seamless loop */}
+  <Marquee speed={200} loop={0} play={true}>           {[...icons, ...icons].map(({ Icon, name }, index) => (
+            <div
+              key={`${name}-${index}`}
+              className="flex items-center mx-4 p-5 px-10 bg-white   rounded-lg   hover:shadow-lg   border-2 border-black  shadow-2xl hover:shadow-red-700   duration-300"
+            >
+              <Icon className=" text-5xl text-black mr-2" />
+              <span className="text-black font-semibold text-lg">{name}</span>
+            </div>
+          ))}
+        </Marquee>
+      </div>
+      
+    </div>
+  );
+};
+
+export default Label;
