@@ -28,7 +28,7 @@ const Label = () => {
   ];
 
   return (
-    <div className="w-full  overflow-hidden bg-white py-6">
+    <div className="w-full hover-target  overflow-hidden bg-white py-6">
       <div className="relative p-6 h-full">
         {/* Duplicate icons array to create a seamless loop */}
   <Marquee speed={40} loop={0} play={true}>           {[...icons, ...icons].map(({ Icon, name }, index) => (

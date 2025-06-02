@@ -4,3 +4,10 @@
 ::-webkit-scrollbar {
   display: none; /* Hide scrollbar */
 }
+body {
+  cursor: url('./Public/Images/cursor-default.png') 1 1, auto;
+}
+
+a:hover, button:hover, .hover-target:hover {
+  cursor: url('./Public/Images/cursor-hover.png') 1 1, pointer;
+}

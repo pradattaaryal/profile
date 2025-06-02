@@ -12,7 +12,7 @@ import Label from './Marquee/Marquee'
 
  const Home = () => {
   return (
-    <>
+    <div className='hover-target'>
      <Header></Header>
      <Landing></Landing>
      <About></About>
@@ -23,7 +23,7 @@ import Label from './Marquee/Marquee'
       
      <Portfolio></Portfolio>
      <Footer></Footer>
-     </>
+     </div>
   )
 }
 
