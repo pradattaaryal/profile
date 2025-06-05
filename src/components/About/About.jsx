@@ -38,7 +38,7 @@ const AboutMe = () => {
         <div className="space-y-8 flex flex-col justify-center h-full">
           <div>
             <h1 className="text-4xl font-bold text-gray-900 mb-2">Hi, I'm Pradatta Aryal</h1>
-            <h2 className="text-xl text-gray-600 mb-6">Aspiring Full-Stack Developer & DevOps Enthusiast</h2>
+            <h2 className="text-xl text-gray-600 mb-6">Full-Stack Developer & DevOps Enthusiast</h2>
             <p className="text-gray-700 leading-relaxed">
               I'm a very ambitious student looking to gain experience in FullStack development and DevOps with the latest technologies.
               I'm confident, naturally curious, and perpetually working on improving my skills and knowledge.

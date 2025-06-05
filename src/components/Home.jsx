@@ -16,12 +16,11 @@ import Label from './Marquee/Marquee'
      <Header></Header>
      <Landing></Landing>
      <About></About>
-    <Label/>
-     <Skill></Skill>
-    <Experience></Experience>
- 
-      
+     <Experience></Experience>
      <Portfolio></Portfolio>
+     <Label/>
+     <Skill></Skill>
+    
      <Footer></Footer>
      </div>
   )
