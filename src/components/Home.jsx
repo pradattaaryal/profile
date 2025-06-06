@@ -14,7 +14,7 @@ import Label from './Marquee/Marquee'
   return (
     <div className='hover-target'>
      <Header></Header>
-     <Landing></Landing>
+     {/* <Landing></Landing> */}
      <About></About>
      <Experience></Experience>
      <Portfolio></Portfolio>
