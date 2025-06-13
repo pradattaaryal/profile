@@ -51,7 +51,7 @@ const Experience = () => {
       role: 'Full Stack Developer',
       company: 'Kutumba Tech',
       location: 'Hetauda',
-      date: 'July 2024-May 2025',
+      date: 'July 2023-May 2025',
       description:
         'Full Stack Developer on Online Health Care System developers and implemented CI/CD pipelines.',
        techStack: ['React', '.Net', 'SQl', 'TypeScript'],
