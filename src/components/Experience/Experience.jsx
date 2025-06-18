@@ -54,7 +54,7 @@ const Experience = () => {
       date: 'July 2023-May 2025',
       description:
         'Full Stack Developer on Online Health Care System developers and implemented CI/CD pipelines.',
-       techStack: ['React', '.Net', 'SQl', 'TypeScript'],
+       techStack: ['React', '.Net', 'SQl','Docker','CICD', 'TypeScript'],
     },
     {
       role: 'Full Stack Software Developer',
@@ -63,7 +63,7 @@ const Experience = () => {
       date: 'May 2025--current',
       description:
         'Developed and maintained client-facing applications. Collaborated with design team to implement responsive UI components.',
-      techStack: ['JavaScript','Node','Express', 'React', 'Tailwinid', 'Git'],
+      techStack: ['Nest js','Next js','Tailwinid','CICD', 'Git'],
     },
   ];
 
