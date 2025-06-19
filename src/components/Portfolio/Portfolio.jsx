@@ -66,7 +66,7 @@ const Portfolio = () => {
             viewport={{ once: true }}
             variants={projectVariants}
           >
-            <div className="border-2 border-black hover:shadow-purple-700 hover:shadow-2xl rounded-xl overflow-hidden  hover:scale-[1.02] transition-transform bg-white">
+            <div className="border-2 border-black hover:shadow-black hover:shadow-2xl rounded-xl overflow-hidden  hover:scale-[1.02] transition-transform bg-white">
               <div className="h-[160px] sm:h-[180px]">
                 <img
                   src={item.src}
