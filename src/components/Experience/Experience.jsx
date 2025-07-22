@@ -60,10 +60,19 @@ const Experience = () => {
       role: 'Full Stack Software Developer',
       company: 'NeoMatrix',
       location: 'Kathmandu',
-      date: 'May 2025--current',
+      date: 'May 2025--July 2025',
       description:
         'Developed and maintained client-facing applications. Collaborated with design team to implement responsive UI components.',
       techStack: ['Nest js','Next js','Tailwinid','CICD', 'Git'],
+    },
+    {
+      role: 'Backend Software Developer',
+      company: 'Web Expert Nepal',
+      location: 'Kathmandu',
+      date: 'July 2025--current',
+      description:
+        'Developed, maintained and optimized backend applications.',
+      techStack: ['Nest js','CICD', 'Git'],
     },
   ];
 
