@@ -1,19 +1,36 @@
 import React from "react";
-import y from './image.png';
-import CV from './CV.pdf';
+import y from "./image.png";
+import CV from "./CV.pdf";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
-
+ import ProfileCard from '../Card'
 const AboutMe = () => {
   const handleGetInTouch = () => {
-    window.open("https://mail.google.com/mail/?view=cm&to=pradattaaryal2468@gmail.com");
+    window.open(
+      "https://mail.google.com/mail/?view=cm&to=pradattaaryal2468@gmail.com"
+    );
   };
 
   return (
     <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="about">
       <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
         {/* Left Column - Image and Download */}
+
+        <div className="space-y-6 flex flex-col items-center lg:items-start">
+          <ProfileCard 
+    
+  handle="javicodes"
+  status="Online"
+  contactText="Contact Me"
+  avatarUrl={y}
+  showUserInfo={true}
+  enableTilt={true}
+  enableMobileTilt={false}
+  onContactClick={() => console.log('Contact clicked')}/>
+        </div>
+
+        {/* Left Column - Image and Download 
         <div className="space-y-6 flex flex-col items-center lg:items-start">
           <div className="relative">
             <div className="w-80 h-80 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 shadow-2xl border-2 border-black">
@@ -36,21 +53,30 @@ const AboutMe = () => {
             </button>
           </div>
         </div>
-
+*/}
         {/* Right Column - About Content */}
         <div className="space-y-8 flex flex-col justify-center h-full">
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Hi, I'm Pradatta Aryal</h1>
-            <h2 className="text-xl text-gray-600 mb-6">Full-Stack Developer & DevOps Enthusiast</h2>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">
+              Hi, I'm Pradatta Aryal
+            </h1>
+            <h2 className="text-xl text-gray-600 mb-6">
+              Full-Stack Developer & DevOps Enthusiast
+            </h2>
             <p className="text-gray-700 leading-relaxed">
-              I'm a Full-Stack Developer exploring DevOps with a strong interest in modern tools and practices.
-              Curious and driven, I'm always learning and sharpening my skills to build better systems.
+              I'm a Full-Stack Developer exploring DevOps with a strong interest
+              in modern tools and practices. Curious and driven, I'm always
+              learning and sharpening my skills to build better systems.
             </p>
           </div>
 
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg shadow-lg">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Let's work together!</h3>
-            <p className="text-gray-600 mb-4">I'm always interested in new opportunities and exciting projects.</p>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              Let's work together!
+            </h3>
+            <p className="text-gray-600 mb-4">
+              I'm always interested in new opportunities and exciting projects.
+            </p>
             <button
               onClick={handleGetInTouch}
               className="flex items-center bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900"
