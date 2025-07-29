@@ -31,7 +31,7 @@ const Header = () => {
                 <button className={`${expand ? "fixed bottom-2 right-2 p-[12px]" : ""} sm:hidden items-center justify-center pt-2`} onClick={toggleExpand}><IoMenu /></button>
             </div>
             <div className={`sm:flex md:gap-6 sm:gap-4 py-4  text-center md:pr-56 sm:px-16 ${expand ? "grid grid-cols-2 " : "hidden"}`}>
-                {["Home", "about", "Skill","Experiences", "Projects", "Contact"].map((item, index) => (
+                {["Home", "Experiences","Projects","Skill",  "Contact"].map((item, index) => (
                     <div className={`${expand ? "pb-2" : ""} capitalize text-lg font-semibold hover:cursor-pointer`} key={index}><Link spy={true} smooth={true} offset={0} duration={500}  to={`${item.toLowerCase()}`}>{item}</Link></div>
                 ))}
             </div>

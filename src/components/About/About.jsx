@@ -13,7 +13,7 @@ const AboutMe = () => {
   };
 
   return (
-    <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="about">
+    <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="home">
       <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
         {/* Left Column - Image and Download */}
 

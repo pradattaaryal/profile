@@ -325,6 +325,7 @@ const ProfileCardComponent = ({
                     <div className="pc-status">{status}</div>
                   </div>
                 </div>
+                <a href="https://www.linkedin.com/in/pradatta-aryal/" target="_blank">
                 <button
                   className="pc-contact-btn"
                   onClick={handleContactClick}
@@ -333,7 +334,7 @@ const ProfileCardComponent = ({
                   aria-label={`Contact ${name || "user"}`}
                 >
                   {contactText}
-                </button>
+                </button></a>
               </div>
             )}
           </div>
