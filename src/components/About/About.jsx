@@ -1,5 +1,5 @@
 import React from "react";
-import y from "./image.png";
+import y from "./image.jpeg";
 import CV from "./CV.pdf";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { MdWorkOutline, MdOutlineMailOutline } from "react-icons/md";
