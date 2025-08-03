@@ -1,29 +1,35 @@
-import React from 'react'
-import Header from './Header/Header'
-import Landing from './Landing/Landing'
-import About from './About/About'
-import Skill from './Skill/Skill'
-import Portfolio from '../components/Portfolio/Portfolio'
- 
-import Footer from './Footer/Footer'
- 
-import Experience from './Experience/Experience'
-import Label from './Marquee/Marquee'
+// Home.jsx
 
- const Home = () => {
+import React, { lazy, Suspense } from 'react';
+import Header from './Header/Header';
+import Landing from './Landing/Landing';
+import About from './About/About';
+import Skill from './Skill/Skill';
+import Footer from './Footer/Footer';
+import Experience from './Experience/Experience';
+import Label from './Marquee/Marquee';
+
+// Lazy load Portfolio
+const Portfolio = lazy(() => import('../components/Portfolio/Portfolio'));
+
+const Home = () => {
   return (
     <div className='hover-target'>
-     <Header></Header>
-     {/* <Landing></Landing> */}
-     <About></About>
-     <Experience></Experience>
-     <Portfolio></Portfolio>
-     <Label/>
-     <Skill></Skill>
-    
-     <Footer></Footer>
-     </div>
-  )
-}
+      <Header />
+      {/* <Landing /> */}
+      <About />
+      <Experience />
 
-export default Home
+      {/* Lazy loaded Portfolio */}
+      <Suspense fallback={<div>Loading Portfolio...</div>}>
+        <Portfolio />
+      </Suspense>
+
+      <Label />
+      <Skill />
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
