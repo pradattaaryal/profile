@@ -11,7 +11,7 @@ const AboutMe = () => {
       "https://mail.google.com/mail/?view=cm&to=pradattaaryal2468@gmail.com"
     );
   };
-
+  
   return (
     <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="home">
       <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
