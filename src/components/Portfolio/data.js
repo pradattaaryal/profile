@@ -1,12 +1,10 @@
-import xx from './a.jpg'
-import Portfolio from '../../Public/Images/p.png'
-import ecommerce from '../../Public/Images/e.png'
+ 
  import login from '../../Public/Images/login.png'
-import bf from '../../Public/Images/bf.png'
-import ee from '../../Public/Images/ee.png'
+import bf from '../../Public/Images/bf.jpg'
+import ee from '../../Public/Images/ee.jpg'
 import s from '../../Public/Images/s.jpg'
-import c from '../../Public/Images/c.jpeg'
-import jenkins from '../../Public/Images/jenkins.png'
+import c from '../../Public/Images/c.jpg'
+import jenkins from '../../Public/Images/jenkins.jpg'
 import gitlab from '../../Public/Images/gitlab.jpeg'
 import terra from '../../Public/Images/terra.jpeg'
 
