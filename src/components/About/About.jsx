@@ -70,19 +70,26 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg shadow-lg">
+          <div className="bg-gradient-to-r from-blue-300 to-purple-300 md:p-6 p-4 rounded-lg shadow-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               Let's work together!
             </h3>
             <p className="text-gray-600 mb-4">
               I'm always interested in new opportunities and exciting projects.
             </p>
+            <div className="md:flex gap-4 md:justify-center md:items-center">
             <button
               onClick={handleGetInTouch}
-              className="flex items-center bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900"
+              className="flex items-center mb-1 md:mb-0 bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900"
             >
               Get In Touch <MdOutlineMailOutline className="ml-2" />
             </button>
+              <button
+              onClick={() => window.open(CV, "_blank")}
+              className="flex items-center   bg-black text-white px-4 py-2 rounded-xl font-semibold text-lg shadow-lg hover:bg-gray-900"
+            >
+              Download CV <IoDocumentTextOutline className="ml-2" />
+            </button></div>
           </div>
         </div>
       </div>
