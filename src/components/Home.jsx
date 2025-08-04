@@ -24,7 +24,7 @@ const Home = () => {
         <Skill />
         <Footer />
       </Suspense>
-      <About />
+      
     </div>
   );
 };
