@@ -6,12 +6,8 @@ import { FaFacebook, FaInstagram, FaTwitter,FaGithub,FaLinkedin   } from 'react-
    return (
     <div className='max-h-[45vh] border-t-2 mt-44 md:mt-0 border-black border-solid w-full bg-white  ' id='contact'>
     <div className='max-w-[1140px] h-full    m-auto flex flex-col    items-center'>
-      <h1 className=' p-3 sm:p-5 md:p-10   text-lg sm:text-xl  md:text-3xl  xl:text-5xl tracking-wide font-lg  '>Pradatta Aryal</h1>
-      <ul className='gap-8 flex pb-3 sm:pb-5 md:pb-10   text-lg sm:text-xl  md:text-1xl font-mono xl:text-2xl tracking-wide font-lg'>
-      <li>About</li>
-      <li>Project</li>
-      <li>Skill</li>
-      </ul>
+      <h1 className=' p-3 sm:p-5 md:p-10 font-bold   text-lg sm:text-xl  md:text-3xl  xl:text-5xl tracking-wide font-lg  '>Pradatta Aryal</h1>
+      
       <div className='flex  gap-4 text-lg sm:text-xl  md:text-3xl pb-10'>
          <a href="https://www.facebook.com/pradatta.aryal.94">  <FaFacebook /></a>
          <a href="https://www.instagram.com/pradatta_aryal/"> <FaInstagram /></a>
