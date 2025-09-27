@@ -20,7 +20,7 @@ const AboutMe = () => {
         <div className="space-y-6 flex flex-col items-center lg:items-start">
           <ProfileCard 
     
-  handle="javicodes"
+  handle="Pradatta Aryal"
   status="Online"
   contactText="Contact Me"
   avatarUrl={y}
