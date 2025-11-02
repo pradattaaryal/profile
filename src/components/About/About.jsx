@@ -13,7 +13,7 @@ const AboutMe = () => {
   };
   
   return (
-    <section className="py-16 px-4 max-w-6xl mx-auto md:h-screen" id="home">
+<section className="py-16 px-4 max-w-6xl mx-auto min-h-screen lg:h-screen" id="home">
       <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
         {/* Left Column - Image and Download */}
 
@@ -62,10 +62,11 @@ const AboutMe = () => {
             <IoLocationOutline className="w-5 h-5 text-gray-500" />
             <span className="text-gray-700">Kathmandu, Nepal</span>
           </div>  
-              <div className=" p-">
+              <div className=" py-5  ">
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
               Hi, I'm Pradatta Aryal
-            </h1></div>
+            </h1 >
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">Full-Stack Developer & DevOps Enthusiast</h1></div>
           <div></div>
             <p className="text-gray-700 leading-relaxed">
               I'm a Full-Stack Developer exploring DevOps with a strong interest

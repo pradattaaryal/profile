@@ -13,7 +13,7 @@ const Skill = () => {
       }
     ],
     
-    "interests": ["Devops", "Backend Development", "System Architecture", "Frontend Development"],
+    "interests": ["Devops", "Backend Development", "System Architecture"],
   };
 
   return (
