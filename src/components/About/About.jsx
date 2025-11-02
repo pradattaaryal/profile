@@ -56,13 +56,17 @@ const AboutMe = () => {
 */}
         {/* Right Column - About Content */}
         <div className="space-y-8 flex flex-col justify-center h-full">
+          
           <div>
+             <div className="flex items-center gap-3">
+            <IoLocationOutline className="w-5 h-5 text-gray-500" />
+            <span className="text-gray-700">Kathmandu, Nepal</span>
+          </div>  
+              <div className=" p-">
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
               Hi, I'm Pradatta Aryal
-            </h1>
-            <h2 className="text-xl text-gray-600 mb-6">
-              Full-Stack Developer & DevOps Enthusiast
-            </h2>
+            </h1></div>
+          <div></div>
             <p className="text-gray-700 leading-relaxed">
               I'm a Full-Stack Developer exploring DevOps with a strong interest
               in modern tools and practices. Curious and driven, I'm always
