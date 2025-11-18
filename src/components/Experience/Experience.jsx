@@ -13,7 +13,7 @@ export default function Experience() {
       isCurrent: true,
       description:
         "Developed, maintained, and optimized backend applications with scalable API design and deployment best practices.",
-      techStack: ["NestJS", "CI/CD", "Git"],
+      techStack: [".Net","Nest", "CI/CD", "Git"],
     },
     {
       company: "NeoMatrix",
